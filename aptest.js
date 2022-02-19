@@ -1,7 +1,7 @@
 // First we get the 'Atlas Passive String' from the POE website
 
-var act = "ohnpeat"
-var league = "Archnemesis"
+var act = "YOURACCOUNTNAMEOFCHOICE"
+var league = "THECURRENTLEAGUENAME"
 var currentversion = 6 // not enirely sure how/where this was set in the original code but '6' seems to be the value we need!!
 
 
