@@ -1,9 +1,9 @@
-# PoeApt
+# PoE Atlas Passive Tree Parser
 
-This is just an example of the Javascript code used to parse the 'string' GGG use for the Atlas Passive Tree into useful Node names etc.
+This is just an example of Javascript which parses the 'string' GGG use for the Atlas Passive Tree into the actual Node numbers - and a dump of the Node database as JSON
  
  
-aptest.js is an example of how to find and parse the Atlas Passive Tree 'code' into Node numbers selected for a given account
+aptest.js shows how to  parse the Atlas Passive Tree 'string' for a given account/league
 
 
-atlas-skill-tree3_17.json is a copy of the Atlas Passive database which contains Node Names and information on paths/links etc.
+atlas-skill-tree3_17.json is a copy of the Atlas Passive database keyed by  Node number with information on name/what it does/what it links-to etc.
