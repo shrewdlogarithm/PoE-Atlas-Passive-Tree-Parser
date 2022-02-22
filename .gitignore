@@ -5,3 +5,7 @@
 
 .vscode/*
 in-dev/*
+
+*.pyc
+
+acctdb.json
