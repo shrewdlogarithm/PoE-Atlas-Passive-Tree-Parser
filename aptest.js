@@ -1,7 +1,7 @@
 // First we get the 'Atlas Passive String' from the POE website
 
-var act = "YOURACCOUNTNAMEOFCHOICE"
-var league = "THECURRENTLEAGUENAME"
+var act = "zizaran"
+var league = "SSF Archnemesis HC"
 var currentversion = 6 // not enirely sure how/where this was set in the original code but '6' seems to be the value we need!!
 
 
@@ -58,6 +58,7 @@ fetch(url, { method: 'GET' })
 
         // GGG's code to decode the string
         e = decodeURIComponent(e.replace(/-/g, "+").replace(/_/g, "/"));
+
         try {
             e = atob(e) // simplified from GGGs slightly odd implementation
         } catch (t) {
@@ -103,7 +104,7 @@ fetch(url, { method: 'GET' })
                 }
                 break;
             default:
-                alert("The build you are trying to load is using an old version of the passive tree and will not work.")
+                console.log("The build you are trying to load is using an old version of the passive tree and will not work.")
         }
 
         console.log(l); // variable 'l' contains the list of nodes we need
